@@ -142,7 +142,7 @@ input[type=submit] {
 input[type=submit]:active {
     background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%);
-    transition: background-color ;
+    transition: background-color .2s;
 }
 
 .attribution { 
