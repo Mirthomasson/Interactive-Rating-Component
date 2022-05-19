@@ -97,14 +97,16 @@ p {
     width: 3em;
     text-align: center;
     margin: .6em;
+    transition: opacity 1s;
 }
 
-.stars.disabled {
+/* .stars.disabled {
     pointer-events: none;
-}
+} */
 
 .stars:hover a {
     opacity: 100%;
+    transition: opacity 1s;
 }
 
 .stars a:hover {
@@ -118,6 +120,7 @@ p {
 .stars a.active {
    opacity: 100%;
    background-color: hsl(25, 97%, 53%);
+   transition: opacity, background-color .5s;
 }
 
 
