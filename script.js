@@ -1,5 +1,6 @@
 const starWrapper = document.querySelector(".stars");
 const stars = document.querySelectorAll(".stars a");
+let rating = 0;
 
   stars.forEach((star, clickedIdx) => {
     star.addEventListener('click', () => {
@@ -10,15 +11,15 @@ const stars = document.querySelectorAll(".stars a");
         }
       })
       console.log(`${clickedIdx + 1}`);
-      //Post
-
+      rating = clickedIdx + 1;
     });
   });
 
 
 
 document.getElementById("submit-button").onclick = function () {
-  location.href = "./index-2.html";
+  location.href = `./index-2.html?rating=${rating}`;
   
 };
+
 
