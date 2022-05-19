@@ -169,10 +169,6 @@ input[type=submit]:active {
     .stars a {
         margin: .7em 1em;
     }
-    input[type=submit] {
-        margin: 2em auto;
-        width: 27em;
-    }
     p {
         margin: 1em;
     }
